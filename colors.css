@@ -1,7 +1,11 @@
     :root{
         --custom-color-primary:orange;
-        --custom-color-secondary:aquamarine;
+        --custom-color-secondary: aqua;
         --custom-color-third:red;
+        --custom-color-fourth: blueviolet;
+        --custom-color-fifth:darkgrey;
+        --custom-color-sixth:darkcyan;
+        --custom-color-seventh:pink;
     }
 
     body{
@@ -11,17 +15,17 @@
         color: var(--custom-color-third);
     }
     .DnD{
-        background-color: aqua;
+        background-color:var(--custom-color-secondary);
     }
     .razze{
-        background-color: blueviolet;
+        background-color: var(--custom-color-fourth);
     }
     .armi{
-        background-color: darkgrey;
+        background-color: var(--custom-color-fifth)
     }
     .magie{
-        background-color: pink;
+        background-color: var(--custom-color-seventh);
     }
     .classi{
-        background-color: darkcyan;
+        background-color: var(--custom-color-sixth);
     }
