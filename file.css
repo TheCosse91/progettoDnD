@@ -1,0 +1,69 @@
+.titoloPermanente{
+    background-color: coral;
+    border-radius: 12px;
+    border: 5px solid;
+}
+.titolo{
+    display: flex;
+}
+.titolo2{
+    display: flex;
+    margin-top: 8px;
+}
+.riga{
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.immaginiBlock{
+    display: flex;
+}
+.immagini{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+div.chierico {
+    background-image: url("chierico.gif");
+    background-size: cover; width:130px; height:200px;
+    background-position: center;
+}
+div.mago { 
+    background-image: url("mago.gif");
+    background-size: cover; width:130px; height:200px;
+    background-position: center;
+}
+div.paladino {
+    background-image: url("paladino.gif");
+    background-size: cover; width:130px; height:200px;
+    background-position: center;
+}
+div.Warlock {
+    background-image: url("warlock.gif");
+    background-size: cover; width:130px; height:200px;
+    background-position: center;
+}
+
+h4{
+    padding-left: 25px;
+}
+.descrizioneClasse{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+body{
+    font-family: 'Verdana', sans-serif;
+}
+.paragrafo{
+    margin-top: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+}

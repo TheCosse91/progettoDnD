@@ -1,0 +1,27 @@
+    :root{
+        --custom-color-primary:orange;
+        --custom-color-secondary:aquamarine;
+        --custom-color-third:red;
+    }
+
+    body{
+        background-color: var(--custom-color-primary);
+    }
+    h4{
+        color: var(--custom-color-third);
+    }
+    .DnD{
+        background-color: aqua;
+    }
+    .razze{
+        background-color: blueviolet;
+    }
+    .armi{
+        background-color: darkgrey;
+    }
+    .magie{
+        background-color: pink;
+    }
+    .classi{
+        background-color: darkcyan;
+    }
